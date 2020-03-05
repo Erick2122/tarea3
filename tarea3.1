@@ -1,0 +1,21 @@
+void setup(){
+  size(500,500);
+  
+}
+
+void draw(){
+  fill(0);
+  rect(0,0,500,500);
+  fill(225);
+  rect(150,150,200,200);
+  fill(225);
+  ellipse(mouseX,mouseY,100,100);
+  if(mouseY>=140){
+    fill(0);
+    ellipse(mouseX,mouseY,100,100);
+    
+    
+  }
+  
+  
+}
